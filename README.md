@@ -17,6 +17,10 @@ envelope the dashboard itself uses. All 604 procedures in the spec work.
 Needs node 18+. No `npm install`, no deps.
 
 ```bash
+curl -sSL https://raw.githubusercontent.com/aor-rex/dokploy-cli/main/install.sh | sh
+```
+or manual:
+```bash
 git clone https://github.com/aor-rex/dokploy-cli
 cd dokploy-cli
 chmod +x dk.js
